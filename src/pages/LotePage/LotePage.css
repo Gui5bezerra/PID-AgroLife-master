@@ -1,0 +1,62 @@
+.container-pagina-lote {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .acoes-lote {
+    display: flex;
+    align-items: center;  /* Centraliza verticalmente todos os itens */
+    margin-bottom: 20px;
+  }
+  
+  .botao-excluir, .botao-criar, .botao-editar, .botao-pesquisar, .botao-filtrar {
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 42px;  /* Certifique-se de que todos os botões tenham a mesma altura */
+    display: flex;
+    align-items: center;  /* Centraliza o texto do botão verticalmente */
+  }
+  
+  .input-pesquisa {
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    height: 42px;  /* Ajusta a altura para ficar igual aos botões */
+    box-sizing: border-box;  /* Garante que o padding não altere a altura */
+  }
+  
+  .botao-pesquisar, .botao-filtrar {
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    height: 42px;  /* Certifique-se de que o botão de pesquisa tenha a mesma altura */
+    display: flex;
+    align-items: center;  /* Centraliza o ícone verticalmente */
+  }
+  
+  .tabela-lote {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabela-lote th,
+  .tabela-lote td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tabela-lote th {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  .tabela-lote td {
+    font-size: 14px;
+  }

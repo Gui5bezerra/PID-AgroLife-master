@@ -1,0 +1,89 @@
+.container-pagina-curral {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .acoes-curral {
+    display: flex;
+    flex-direction: row;  /* Alinha os itens horizontalmente */
+    align-items: center;  /* Centraliza os itens verticalmente */
+    justify-content: flex-start;  /* Alinha os itens à esquerda */
+    margin-bottom: 20px;
+  }
+  
+  .botao-criar, .botao-editar, .botao-excluir, .botao-pesquisar, .botao-filtrar {
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;  /* Espaçamento entre os botões */
+  }
+  
+  .botao-criar {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .botao-editar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .botao-excluir {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .input-pesquisa {
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    height: 42px;
+    box-sizing: border-box;
+  }
+  
+  .botao-pesquisar, .botao-filtrar {
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    height: 42px;
+    display: flex;
+    align-items: center;
+  } 
+  
+  .tabela-curral {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabela-curral th,
+  .tabela-curral td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tabela-curral th {
+    background-color: #f2f2f2;;
+    color: black;
+  }
+  
+  .tabela-curral td {
+    font-size: 14px;
+  }

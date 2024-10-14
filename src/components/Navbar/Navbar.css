@@ -1,0 +1,54 @@
+.navbar {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  justify-content: cen; /* Alinha o conteúdo à esquerda */
+}
+
+.nav-item {
+  margin-right: 40px; /* Reduzido para espaçar os itens entre si */
+  margin-left: 20px;  /* Adiciona espaçamento à esquerda do item */
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  color: black;
+  min-width: 150px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown a {
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.dropdown a:hover {
+  background-color: lightgray;
+}
+
+/* Ajustando o tamanho e posição do ícone da casa */
+.home-icon {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}

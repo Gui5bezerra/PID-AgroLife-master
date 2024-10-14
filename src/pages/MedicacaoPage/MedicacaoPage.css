@@ -1,0 +1,65 @@
+.container-pagina-medicacao {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .acoes-medicacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .botao-excluir, .botao-criar, .botao-editar, .botao-pesquisar, .botao-filtrar {
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .input-pesquisa {
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    height: 42px;
+    box-sizing: border-box;
+  }
+  
+  .botao-pesquisar, .botao-filtrar {
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    height: 42px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tabela-medicacao {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabela-medicacao th,
+  .tabela-medicacao td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tabela-medicacao th {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  .tabela-medicacao td {
+    font-size: 14px;
+  }

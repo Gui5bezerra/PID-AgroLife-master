@@ -1,0 +1,120 @@
+.container-pagina-animal {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.acoes-animal {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.botao-excluir {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.botao-excluir:hover {
+  background-color: darkred;
+}
+
+.botao-criar {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.botao-criar:hover {
+  background-color: #0073e6;
+}
+
+.botao-editar {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.botao-editar:hover {
+  background-color: #45a049;
+}
+
+.input-pesquisa {
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.botao-filtrar {
+  width: 37px; 
+  height: 36px; 
+  margin-left: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tabela-animal {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela-animal th,
+.tabela-animal td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabela-animal th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tabela-animal td {
+  font-size: 14px;
+}
+
+/* Ajuste para o checkbox maior */
+input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: 10px;
+}
+
+/* Posicionando o ícone de download abaixo da tabela, no lado direito */
+.botao-download-wrapper {
+  display: flex;
+  justify-content: flex-end; /* Alinha o botão à direita */
+  padding: 10px;
+}
+
+.botao-download img {
+  width: 23px; 
+  height: 25px; 
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.botao-download img:hover {
+  transform: scale(1.1); /* Aumenta levemente o ícone ao passar o mouse */
+}
